@@ -1,10 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Mood Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1 This is about web application>
-<h2 In this we can learn the html>
-<h3 This is all about html>
-<body>
-<head>
-<html>  
+    <header>
+        <h1>To-Do List with Mood Tracker</h1>
+    </header>
+    <main>
+        <section id="todo-list">
+            <h2>To-Do List</h2>
+            <input id="task-input" type="text" placeholder="Add task">
+            <button id="add-task-btn">Add Task</button>
+            <ul id="task-list"></ul>
+        </section>
+        <section id="mood-tracker">
+            <h2>Mood Tracker</h2>
+            <select id="mood-select">
+                <option value="happy">Happy</option>
+                <option value="sad">Sad</option>
+                <option value="neutral">Neutral</option>
+            </select>
+            <button id="log-mood-btn">Log Mood</button>
+            <div id="mood-log"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
 
